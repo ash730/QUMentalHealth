@@ -47,7 +47,12 @@ public class Main {
         while(true) {
             System.out.println("Select an activity by entering the corresponding number:");
             //insert println's for each game numbered here
-            System.out.println("1. <name here>"); //etc.
+            System.out.println("1. A Really Easy Quiz");
+            System.out.println("2. Talk about your Favorite Color");
+            System.out.println("3. Magic 8 Ball");
+            System.out.println("4. Create your own Pet");
+            System.out.println("5. Calculate the GCD of a Number");
+            System.out.println("6. Guessing Game");
             System.out.println("0. Exit Application");
             switch(scan.nextLine()) {
                 case "1":
