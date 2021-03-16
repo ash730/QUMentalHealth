@@ -53,11 +53,38 @@ public class Main {
             System.out.println("4. Create your own Pet");
             System.out.println("5. Calculate the GCD of a Number");
             System.out.println("6. Guessing Game");
+            System.out.println("7. <game>");
+            System.out.println("8. <game>");
+            System.out.println("9. <game>");
             System.out.println("0. Exit Application");
             switch(scan.nextLine()) {
                 case "1":
+                    new PainfullyEasyQuiz();
                     break;
-                //other cases
+                case "2":
+                    new FavoriteColor();
+                    break;
+                case "3":
+                    new Magic8Ball();
+                    break;
+                case "4":
+                    new CreatePet();
+                    break;
+                case "5":
+                    new gcdCalculator();
+                    break;
+                case "6":
+                    new GuessingGame();
+                    break;
+                case "7":
+                    //game
+                    break;
+                case "8":
+                    //game
+                    break;
+                case "9":
+                    //game
+                    break;
                 case "0":
                     System.out.println("Okay, see ya!");
                     System.exit(1);
