@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class gcdCalculator {
 
 	public static void main(String[] args) {
-		
+		//Jack
 		int num1, num2;
 		
 		Scanner myScanner = new Scanner(System.in);

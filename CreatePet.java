@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class CreatePet {
 
 	public static void main(String[] args) {
-		
+
+		//Jack
 		System.out.println("Hello! Welcome to the create pet activity! Choose from one of the three options for creating a new furry friend.");
 		System.out.println("Type in 1 to choose a dog. Type in 2 to choose a guinea pig. Type in 3 to choose a cat.");
 		
